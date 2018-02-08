@@ -1,6 +1,8 @@
 GFWList2PAC
 ===========
 ### 将GFWList条目转换成PAC文件：
+
+    
     进入项目主页后，右上角选择，Clone or Download，选择Download Zip。
     
     下载后，解压项目。进入目录，找到main.py文件，打开。
