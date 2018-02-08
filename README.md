@@ -11,7 +11,7 @@ GFWList2PAC
     
     确认计算机安装好Python2环境后，命令后进入该文件夹，执行命令：
     
-    main.py -f 输出代理文件路径/生成文件.pac -p “代理参数” 例如：``` main.py -f d:/gfw.pac -p “SOCKS5 127.0.0.1:1080;”```
+    main.py -f 输出代理文件路径/生成文件.pac -p “代理参数” 例如：` main.py -f d:/gfw.pac -p “SOCKS5 127.0.0.1:1080;”`
     
     
 ### Usage
