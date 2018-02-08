@@ -1,16 +1,17 @@
 GFWList2PAC
 ===========
-进入项目主页后，右上角选择，Clone or Download，选择Download Zip。
-下载后，解压项目。进入目录，找到main.py文件，打开。
-找到变量gfwlist_url，修改为https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt，保存退出。
-确认计算机安装好Python环境后，命令后进入该文件夹，执行命令：
-main.py -f 输出代理文件路径/生成文件.pac -p “代理参数” 例如： main.py -f ~/gfw.pac -p “SOCKS5 127.0.0.1:1080;”
-参数需要自行调整，工具支持自定义规则，请各位参考项目文档。工具执行后，会在您指定的位置产生PAC文件。
-运行ShadowSocks，本文章以macOS系统为例。点击小飞机图标，选择“编辑自动模式的PAC”，然后系统会弹出窗口，并自行选中gfwlist.js。
-编辑该文档，将生成的PAC文件内容，替换gfwlist.js文档内容，保存并退出。
-重新运行ShadowSocks，开启代理即可
-Generate O(1) PAC file from gfwlist.
-
+### 将GFWList条目转换成PAC文件：
+    进入项目主页后，右上角选择，Clone or Download，选择Download Zip。
+    
+    下载后，解压项目。进入目录，找到main.py文件，打开。
+    
+    找到变量gfwlist_url，修改为https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt，保存退出。
+    
+    确认计算机安装好Python2环境后，命令后进入该文件夹，执行命令：
+    
+    main.py -f 输出代理文件路径/生成文件.pac -p “代理参数” 例如：``` main.py -f d:/gfw.pac -p “SOCKS5 127.0.0.1:1080;”```
+    
+    
 ### Usage
 
     usage: main.py [-h] [-i GFWLIST] -f PAC -p PROXY [--user-rule USER_RULE]
